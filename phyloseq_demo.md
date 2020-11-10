@@ -52,3 +52,14 @@ plot_richness(GP)
 ```
 
 ![](phyloseq_demo_files/figure-markdown_github/unnamed-chunk-1-1.png)
+
+``` r
+data("GlobalPatterns")
+gpt <- subset_taxa(GlobalPatterns, Kingdom=="Bacteria")
+gpt <- prune_taxa(names(sort(taxa_sums(gpt),TRUE)[1:300]), gpt)
+plot_heatmap(gpt, sample.label="SampleType")
+```
+
+    ## Warning: Transformation introduced infinite values in discrete y-axis
+
+![](phyloseq_demo_files/figure-markdown_github/unnamed-chunk-2-1.png)
