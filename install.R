@@ -1,4 +1,5 @@
-install.packages("devtools")
-install.packages("ggplot2")
-source("http://bioconductor.org/biocLite.R")
-biocLite("phyloseq")
+pkgs = c("BiocManager", "tidyverse", "plotly","knitr", "rprojroot", "rmarkdown","scales","taxize", "data.table","ape")
+ncores = parallel::detectCores()
+install.packages(pkgs, Ncpus = ncores)
+
+BiocManager::install("phyloseq")
