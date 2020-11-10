@@ -1,0 +1,11 @@
+---
+title: "Readme"
+output: github_document
+---
+#Read me 
+
+This is the kartzinel lab meeeting Github tutorial. 
+
+Meeting led by Beth 
+  Bianca assisted 
+    Lab group was involved :-) 
