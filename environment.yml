@@ -1,7 +1,0 @@
-name: example-environment
-channels:
-  - conda-forge
-  - bioconda
-dependencies:
-  - r-ggplot2
-  - bioconductor-phyloseq
