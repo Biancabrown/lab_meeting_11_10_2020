@@ -2,10 +2,9 @@
 title: "Readme"
 output: github_document
 ---
-#Read me 
+# LDA Binder
 
-This is the kartzinel lab meeeting Github tutorial. 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Biancabrown/lab_meeting_11_10_2020?urlpath=rstudio)
 
-Meeting led by Beth 
-  Bianca assisted 
-    Lab group was involved :-) 
+Lab Meeting
+in a notebook on MyBinder.org.
